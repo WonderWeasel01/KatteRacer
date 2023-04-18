@@ -68,6 +68,10 @@ a {
     font-weight: 500;
     color: #2fc8f7;
 }
+.logo{
+    height: 30;
+    
+}
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
@@ -83,6 +87,7 @@ a {
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
+
     
 
     .nav-menu.active {
@@ -112,5 +117,7 @@ a {
 
     .logo{
         height: 30;
+        
     }
+
 }
