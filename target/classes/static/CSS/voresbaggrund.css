@@ -121,3 +121,17 @@ a {
     }
 
 }
+
+.voresbaggrund {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.gruppebillede {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
