@@ -130,8 +130,7 @@ a {
 }
 
 .gruppebillede {
-    display: inline-block;
+    display: flex;
     margin-top: 20px;
-    text-align: center;
-    width: 80%;
+    width: 60%;
 }
