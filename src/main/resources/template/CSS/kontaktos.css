@@ -148,7 +148,7 @@ a {
   .contact_us_6 textarea:focus {
     outline-color: initial;
     outline-style: none;
-    outline-width: initial;
+    outline-width: auto;
   }
   
   .contact_us_6 .container-block {
@@ -232,16 +232,6 @@ a {
     font-weight: 900;
   }
   
-  .contact_us_6 .text-blk.contactus-subhead {
-    color: #9c9c9c;
-    width: 300px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-left: auto;
-    display: none;
-  }
-  
   .contact_us_6 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
     margin-top: 0px;
     margin-right: 0px;
@@ -251,7 +241,7 @@ a {
   }
   
   .contact_us_6 .input {
-    width: 100%;
+    width: 130%;
     height: 50px;
     padding-top: 1px;
     padding-right: 15px;
@@ -279,7 +269,7 @@ a {
   }
   
   .contact_us_6 .textinput {
-    width: 98%;
+    width: 135%;
     min-height: 150px;
     padding-top: 20px;
     padding-right: 15px;
@@ -386,7 +376,7 @@ a {
     max-height: 520px;
     width: 100%;
     height: 520px;
-    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/sc23.png");
+    background-image: url("/src/main/resources/template/Pictures/kort.png");
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
