@@ -371,17 +371,6 @@ a {
     color: white;
   }
   
-  .contact_us_6 .map-box {
-    max-width: 800px;
-    max-height: 520px;
-    width: 100%;
-    height: 520px;
-    background-image: url("/src/main/resources/template/Pictures/kort.png");
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 50%;
-  }
-  
   .contact_us_6 .map-part {
     width: 100%;
     height: 100%;
