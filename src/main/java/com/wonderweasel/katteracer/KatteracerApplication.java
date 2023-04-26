@@ -50,6 +50,18 @@ public class KatteracerApplication {
         return "forum";
     }
 
+	@RequestMapping("/forum")
+	@GetMapping("/post1")
+	public String post1() {
+		return "post1";
+	}
+
+	@RequestMapping("/forum")
+	@GetMapping("/post2")
+	public String post2() {
+		return "post2";
+	}
+
 	@GetMapping("/voresbaggrund")
     public String voresbaggrund() {
         return "voresbaggrund";
