@@ -40,9 +40,24 @@ public class KatteracerApplication {
     }
 
     /* up and down both does nothing other than saying their own shit currently */
-    @GetMapping("/medarbejder")
-    public String medarbejder() {
-        return "medarbejder";
+    @GetMapping("/omracen")
+    public String omracen() {
+        return "omracen";
+    }
+
+	@GetMapping("/forum")
+    public String forum() {
+        return "forum";
+    }
+
+	@GetMapping("/voresbaggrund")
+    public String voresbaggrund() {
+        return "voresbaggrund";
+    }
+
+	@GetMapping("/kontaktos")
+    public String kontaktos() {
+        return "kontaktos";
     }
 
     @GetMapping("/?username=dennis&password=umaru")
