@@ -5,6 +5,16 @@
             "name": "http://127.0.0.1:3000/src/main/resources/static/HTML/kontaktos.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/src/main/resources/static/HTML/kontaktos.html"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-KatteracerApplication<katteracer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wonderweasel.katteracer.KatteracerApplication",
+            "projectName": "katteracer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

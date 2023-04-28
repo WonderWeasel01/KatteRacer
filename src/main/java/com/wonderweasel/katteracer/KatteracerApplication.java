@@ -31,7 +31,6 @@ public class KatteracerApplication {
         byte[] bytes = StreamUtils.copyToByteArray(inputStream);
         String htmlContent = new String(bytes, StandardCharsets.UTF_8);
         return htmlContent;
-
     }
 
 	@GetMapping("/hej")
